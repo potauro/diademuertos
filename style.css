@@ -1,0 +1,321 @@
+* :before, after {
+  box-sizing:border-box;
+  }
+  
+img {max-width:100%;
+padding: 0;
+}
+
+
+body {
+  margin: 0%;
+  height: 100%;
+  font-family: 'IM Fell DW Pica SC';
+  background-image: 
+    linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url("Mexico Project/Pictures/Good ingredients/papel3.png") ;
+  background-attachment: fixed;
+  
+ }
+
+.dontDisplay {
+  display:none;
+}
+
+
+
+button {
+  background-color: rgb(30, 17, 87);
+  margin-top:1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  padding:1em;
+  box-shadow:none;
+  border:0 none;
+  color:white;
+  font-size:1.5em;
+  border-radius : 0.3em;
+  font-family: 'Karla', sans-serif;
+  width: 8em;
+}
+
+#restart-button {
+  display: block;
+  background-color: black;
+}
+
+ /* HEADER */
+header {
+  padding:0%;
+  height: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 6em;
+  margin :0;
+  padding: 0.2em 0;
+  color:rgb(30, 17, 87);
+}
+
+#catrinaLogo {
+  width:20vw;
+}
+
+header h2 {
+  font-size:3em;
+  margin :0em;
+  color:white;
+}
+
+header p {
+  font-size: 1.7em;
+  margin-top:0em;
+  margin-bottom: 0.5em;
+  padding-left: 6em;
+  padding-right:6em;
+}
+
+/*Information/ Game Rules*/
+
+.moreInfo{
+  margin: 0%;
+  height: 100%;
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url("Mexico Project/Pictures/Backgrounds/backgroundrules.png");
+  background-color:black;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+
+
+.moreInfo h1{
+  font-size: 5em;
+  text-align: center;
+  margin: 0%;
+}
+
+.moreInfo h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+
+#info {
+  
+  width: 15vw;
+  
+}
+
+
+
+
+
+
+.moreInfo p {
+  font-family: 'Karla', sans-serif;
+  display: none;
+}
+
+#start-button2 {
+  
+}
+
+/* Gameboard */
+
+.game-board {
+  height: 100%;
+  
+  background-image: 
+  url("Mexico Project/Pictures/Backgrounds/altar - credits.jpeg");
+  background-size: 100% 100%;
+  background-color:black;
+  background-attachment: fixed;
+}
+
+.canva canvas {
+height: 100vh;
+background-color: rgb(30, 17, 87);
+}
+.flexc {
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+
+.score {
+  color:white;
+  
+}
+.score h3 {
+  font-size:2em;
+}
+
+.score p {
+  font-size : 2em;
+  margin:0.25em;
+}
+
+.healthMeter {
+  margin-top : 3em;
+}
+
+.healthMeter h3 {
+  font-size: 2em;
+}
+
+progress {
+    border: 0;
+    height: 18px;
+    width: 17em;
+    border-radius: 9px;
+    background-color:#0e4f0c;
+  }
+
+progress::-webkit-progress-bar {
+  background-color:#bab83e;
+}
+progress::-webkit-progress-value {
+  background-color: #f63904;
+  
+}
+
+.scoreBottom {
+  margin-top:4em;
+  width: 60vh;
+  display:flex;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  text-align: left;
+}
+
+.logo h2 {
+  text-align: left;
+   font-size:2em;
+   
+}
+
+.logo img {
+  width: 15vw;
+}
+
+/* bouton pour arreter ou lancer la musique */
+#btplaypause {
+  width: 5vh;
+  vertical-align: bottom;
+}
+
+.nextlvl {
+  text-align: center;
+  padding-top:50px;
+  margin-left: auto;
+  margin-right:auto;
+  }
+  
+.nextlvl img {
+  width: 80%;
+}
+
+
+
+.nextlvl p {
+  font-size: 1.5em;
+  margin-left:1em;
+  margin-right: 1em;
+}
+
+/* GAMEOVER */
+
+.gameOver {
+margin : auto;
+background: linear-gradient(to bottom, red, black);
+height: 100vh;
+width: 100vw;
+}
+
+
+
+.gameOver h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 6em;
+  font-weight:bolder;
+  color: white;
+  
+}
+
+.gameOver p {
+  text-align: center;
+  font-size: 2em;
+  font-weight:bold;
+} 
+
+.DonaldTrump {
+ display: flex;
+ justify-content: center;
+}
+
+#Donald {
+display: flex;
+ justify-content: center;
+width:20vw;
+}
+
+
+ .win {
+  margin : auto;
+  height: 100vh;
+  width: 100vw;
+  background-image: 
+  linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)), url("Mexico Project/Pictures/Backgrounds/Winnerbackground.jpeg");
+  background-repeat: no-repeat;
+  justify-content: center;
+   
+}
+/* WINNING   */
+    
+.title {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.win h1 {
+  margin-top:0;
+  text-align: center;
+  font-size: 7em;
+  color: rgb(30, 17, 87);
+  margin-top: auto;
+  margin-bottom:auto;
+}
+  
+
+
+.win p {
+  text-align: center;
+  color:rgb(243, 176, 32);
+  font-size: 4em;
+} 
+
+
+
+.finalImageWinner {
+  display:flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.finalImageWinner  {
+  height:15em;
+}
+  
+#restart-button2 {
+  display: block;
+}
